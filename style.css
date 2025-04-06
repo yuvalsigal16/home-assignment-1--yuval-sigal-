@@ -20,6 +20,22 @@ body {
     gap: 20px;
     margin: 16px;  }
 
+  #section1 {
+    background-image: url("https://www.elal.com/magazine/wp-content/uploads/2019/01/shutterstock_637162207.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;}
+
+  #section2 {
+     background-image: url("https://www.gotravel.co.il/userfiles/_big_008502E6422B716E5C09B42ACC369359.jpg");
+     background-size: cover;
+     background-position: center;  }
+
+  #section3 {
+     background-image: url("https://www.gotravel.co.il/userfiles2/image/Brazil/rio_beachs/rio_7.JPG");
+     background-size: cover;
+     background-position: center; }
+
   .text-container {
     flex: 1;
   }
@@ -29,16 +45,20 @@ body {
      width: 250px;
      height: 300px;
      object-fit: cover;
-     border-radius: 10px;}
+     border: 10px;}
 
   h2 {
         font-size: 24px;
-        color:rgb(10, 171, 10);
-        margin: 5px; }
+        color:green;
+        margin: 5px;
+        background-color:rgba(195, 239, 195, 0.6);
+        display: inline-block;
+       }
 
     p {
         font-size: 22px;
-        color: rgb(11, 160, 88);
+        background-color:rgba(195, 239, 195, 0.6);
+        color: green;
         margin: 16px; 
         line-height: 1.5}
 
@@ -52,7 +72,7 @@ body {
         width: 320px;
         min-height: 200px; 
         background-color: rgb(180, 234, 180);
-        border-radius: 10px;
+        border: 10px;
         display: flex;
         flex-direction: column; 
         align-items: center;
@@ -63,16 +83,18 @@ body {
         width: 100%;
         height: 180px;
         object-fit: cover; 
-        border-radius: 5px;
+        border: 5px;
         margin: 5px}
     .card h2 {
             font-size: 24px;
             color:rgb(10, 171, 10);
-            margin: 5px; }
+            margin: 5px;
+            background-color: rgb(180, 234, 180); }
         
    .card p {
          margin: 10px ;
          font-size: 16px;
          color: green;
-         text-align: center }
+         text-align: center;
+         background-color: rgb(180, 234, 180); }
     
