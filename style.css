@@ -1,61 +1,60 @@
 
-body {
-    font-family: David, sans-serif;
-    direction: rtl; 
-    text-align: right;
-    flex-direction: column;
- }
+   body {
+      font-family: David, sans-serif;
+      direction: rtl; 
+      text-align: right;
+      flex-direction: column;}
 
-  header {
-    background-color: green;
-    color: white;
-    text-align: center;
-    padding: 5px;
-    font-size: 45px;
-    margin: 5px;  }
+   header {
+      background-color: green;
+      color: white;
+      text-align: center;
+      padding: 5px;
+      font-size: 45px;
+      margin: 5px;  }
 
-.section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row; 
-    background-color: rgb(180, 234, 180);
-    gap: 20px;
-    margin: 16px; }
+   .hero-section{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row; 
+      background-color: rgb(180, 234, 180);
+      gap: 20px;
+      margin: 16px; }
 
-  #section1 {
-    background-image: url("https://www.elal.com/magazine/wp-content/uploads/2019/01/shutterstock_637162207.jpg");
-    background-size: cover;
-    background-position: center;
-    background-position: center; }    
+   #hero-section1 {
+      background-image: url("https://www.elal.com/magazine/wp-content/uploads/2019/01/shutterstock_637162207.jpg");
+      background-size: cover;
+      background-position: center;
+      background-position: center; }    
 
-  #section2 {
-     background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/74/Rio_Larson_1.jpg");
-     background-size: cover;
-    background-position: center;}
+   #hero-section2 {
+      background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/74/Rio_Larson_1.jpg");
+      background-size: cover;
+      background-position: center;}
 
-  #section3 {
-     background-image: url("https://www.farejaviagens.com.br/wp-content/uploads/2024/06/Prainha-Rio-de-Janeiro-1.jpeg");
-     background-size: cover;
-     background-position: center;}
+   #hero-section3 {
+      background-image: url("https://www.farejaviagens.com.br/wp-content/uploads/2024/06/Prainha-Rio-de-Janeiro-1.jpeg");
+      background-size: cover;
+      background-position: center;}
 
-.text-container {
-    flex: 1;}
+   .text-container {
+      flex: 1;}
 
-.section img {
-    margin: 16px;
-    width: 250px;
-    height: 300px;
-    object-fit: cover;
-    border: 10px; }
+   .hero-section img {
+      margin: 16px;
+      width: 250px;
+      height: 300px;
+      object-fit: cover;
+      border: 10px; }
 
-h2 {
-    font-size: 24px;
-    color:green;
-    margin: 5px;
-    padding: 10px;
-    background-color:rgba(251, 253, 251, 0.912);
-    display: inline-block;}
+   h2 {
+      font-size: 24px;
+      color:green;
+      margin: 5px;
+      padding: 10px;
+      background-color:rgba(251, 253, 251, 0.912);
+      display: inline-block;}
 
     p {
         font-size: 22px;
@@ -65,13 +64,13 @@ h2 {
         padding: 10px;
         line-height: 1.5}
 
- .cards-container {
+   .cards-container {
         display: flex; 
         flex-wrap: wrap;
         gap: 15px;
         justify-content: center;}
 
-  .card {
+   .card {
         width: 320px;
         min-height: 200px; 
         background-color: rgb(180, 234, 180);
@@ -101,4 +100,14 @@ h2 {
          color: green;
          text-align: center;
          background-color: rgb(180, 234, 180); }
+
+    footer {
+        background-image: url("https://m.media-amazon.com/images/I/51tOWkN5T4L._AC_UF894,1000_QL80_.jpg");
+        background-size: cover; 
+        background-position: center;
+        color: white;
+        text-align: center;
+        padding: 10px;}  
+
+    
     
