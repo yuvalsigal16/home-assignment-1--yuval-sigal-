@@ -3,7 +3,8 @@
       font-family: David, sans-serif;
       direction: rtl; 
       text-align: right;
-      flex-direction: column;}
+      flex-direction: column;
+      background-color: antiquewhite;}
 
    header {
       background-color: green;
@@ -11,7 +12,8 @@
       text-align: center;
       padding: 5px;
       font-size: 45px;
-      margin: 5px;  }
+      margin: 5px;
+    scroll-behavior:smooth;  }
 
    .hero-section{
       display: flex;
@@ -46,7 +48,7 @@
       width: 250px;
       height: 300px;
       object-fit: cover;
-      border: 10px; }
+      border-radius: 10px; }
 
    h2 {
       font-size: 24px;
@@ -102,12 +104,19 @@
          background-color: rgb(180, 234, 180); }
 
     footer {
-        background-image: url("https://m.media-amazon.com/images/I/51tOWkN5T4L._AC_UF894,1000_QL80_.jpg");
+        flex-direction:row;
         background-size: cover; 
         background-position: center;
-        color: white;
-        text-align: center;
-        padding: 10px;}  
+        text-align:center;
+        padding: 10px;
+        margin: 16px;
+        font-weight: bold;
+        caret-color: black;
+        font-size: large;
+        background-image: url("https://www.lametayel.co.il/limages/8caa8e05d9574a19a98e01beec3f379f.jpg?size=830x467")}
 
-    
-    
+    .footer-nav{
+        margin-bottom: 10px;
+        display: inline-block;
+        text-align: right;
+    }        
