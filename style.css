@@ -24,31 +24,50 @@
       justify-content: center;
       flex-direction: row; 
       background-color: #67AE6E;
-      gap: 20px;
+      width:100%;
+      height: 100%;
       margin: 16px; }
 
     #hero-section1 {
-      background-image: url("https://www.elal.com/magazine/wp-content/uploads/2019/01/shutterstock_637162207.jpg");
+      background-image: url("רקע קרנבל");
       background-size: cover;
       background-position: center;
-      background-position: center; }    
+      background-position: center; 
+      max-height: 100%;}    
 
     #hero-section2 {
-      background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/74/Rio_Larson_1.jpg");
+      background-image: url("רקע פסל ישו הגואל");
       background-size: cover;
-      background-position: center;}
+      background-position: center;
+      max-height: 100%;}
 
     #hero-section3 {
-      background-image: url("https://www.farejaviagens.com.br/wp-content/uploads/2024/06/Prainha-Rio-de-Janeiro-1.jpeg");
-      background-size: cover;
-      background-position: center;}
+      background-image: url("רקע של חוף");
+      background-position: center;
+      max-height: 100%;}
       
     #galery{
         background-size: cover;
         background-position: center;}
 
-    .text-container {
-      flex: 1;}
+    .text-h2 {
+     font-size: 24px;
+      color:green;
+      margin: 10px;
+      padding: 10px;
+      background-color:rgba(251, 253, 251, 0.912);
+      line-height: 1.5;
+      text-align: right; }
+      
+    .text-p {
+      font-size: 24px;
+       color:green;
+       margin: 10px;
+       padding: 10px;
+       background-color:rgba(251, 253, 251, 0.912);
+       max-width: 300%;
+       line-height: 1.5;
+       text-align: right;}
 
     .hero-section img {
       margin: 16px;
@@ -56,22 +75,6 @@
       height: 300px;
       object-fit: cover;
       border-radius: 10px; }
-
-    h2 {
-      font-size: 24px;
-      color:green;
-      margin: 5px;
-      padding: 10px;
-      background-color:rgba(251, 253, 251, 0.912);
-      display: inline-block;}
-
-    p {
-        font-size: 22px;
-        background-color:rgba(251, 253, 251, 0.912);
-        color:green;
-        margin: 16px; 
-        padding: 10px;
-        line-height: 1.5}
 
     .cards-container {
         display: flex; 
@@ -120,7 +123,7 @@
         margin: 16px;
         font-weight: bold;
         font-size: large;
-        background-image: url("https://www.lametayel.co.il/limages/8caa8e05d9574a19a98e01beec3f379f.jpg?size=830x467")}
+        background-image: url("רקע של הfooter")}
 
     .footer-nav{
         display: inline-block;
