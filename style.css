@@ -100,15 +100,15 @@
         border: 5px;
         margin: 5px}
 
-    .card h2 {
+    .card-h2 {
         font-weight: bold;
-        font-size: 24px;
+        font-size: 26px;
         color:white;
         margin: 5px;
         background-color:#90C67C }
         
-    .card p {
-         margin: 5px ;
+    .card-p {
+         margin:5px ;
         font-size: 16px;
         color: white;
         text-align: center;
