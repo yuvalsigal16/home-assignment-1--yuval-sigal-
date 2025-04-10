@@ -23,17 +23,16 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      background-position: center;
       flex-direction: row; 
       background-color: #67AE6E;
-      width:100%;
-      height: 100%;
-      margin: 16px; }
+      margin: 30px; 
+      padding: 25px;}
 
     #hero-section1 {
       background-image: url("רקע קרנבל");
       background-size: cover;
       background-position: center;
-      background-position: center; 
       max-height: 100%;}    
 
     #hero-section2 {
@@ -45,6 +44,8 @@
     #hero-section3 {
       background-image: url("רקע של חוף");
       background-position: center;
+      background-size: cover;
+
       max-height: 100%;}
       
     #galery{
@@ -52,29 +53,33 @@
         background-position: center;}
 
     .text-h2 {
-     font-size: 24px;
+      display: inline;
+      font-size: 24px;
       color:green;
       margin: 10px;
-      padding: 10px;
+      padding: 5px;
       background-color:rgba(251, 253, 251, 0.912);
       line-height: 1.5;
-      text-align: right; }
+      text-align: right;
+      justify-content: center; }
       
     .text-p {
       font-size: 24px;
        color:green;
        margin: 10px;
-       padding: 10px;
        background-color:rgba(251, 253, 251, 0.912);
        max-width: 300%;
        line-height: 1.5;
-       text-align: right;}
+       text-align: right;
+      padding: 10px;}
 
-    .hero-section img {
+    .hero-section-img {
       margin: 16px;
-      width: 250px;
-      height: 300px;
+      padding: 10px;
+      width: 300px;
+      height: 350px;
       object-fit: cover;
+      justify-self: right;
       border-radius: 10px; }
 
     .cards-container {
@@ -82,42 +87,43 @@
         flex-wrap: wrap;
         gap: 20px;
         justify-content: center;
-        width: 100%;}
+        width: 100%;
+        padding: 40px;}
 
     .card {
         display: flex;
         max-width: 320px;
         min-height: 200px; 
         background-color: #90C67C;
-        border: 5px;
         flex-direction: column; 
-        align-items: center;
-        justify-content: flex-start;
-        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        background-position: center;
         }
+
 
     .card-img {
         width: 100%;
         height: 180px;
-        object-fit: cover; 
-        border: 10px;
-        margin: 10px}
+        object-fit: cover;
+        text-align: center;
+        justify-content: center; 
+        border-radius: 10px;}
 
     .card-h2 {
         font-weight: bold;
         font-size: 26px;
         color:white;
-        min-width:100%;
-        margin: 10px;
+        width:100%;
+        padding: 5px;
         text-align: center;
         background-color:#90C67C }
         
     .card-p {
-        margin:5px ;
         font-size: 16px;
         color: white;
         text-align: center;
-        min-width: 100%;
+        width: 100%;
         background-color: #90C67C }
 
     footer {
