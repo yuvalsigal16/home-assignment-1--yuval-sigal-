@@ -30,22 +30,21 @@
       padding: 25px;}
 
     #hero-section1 {
-      background-image: url("רקע קרנבל");
+      background-image: url("תמונות/רקע קרנבל");
       background-size: cover;
       background-position: center;
       max-height: 100%;}    
 
     #hero-section2 {
-      background-image: url("רקע פסל ישו הגואל");
+      background-image: url("תמונות/רקע פסל ישו הגואל");
       background-size: cover;
       background-position: center;
       max-height: 100%;}
 
     #hero-section3 {
-      background-image: url("רקע של חוף");
+      background-image: url("תמונות/רקע של חוף");
       background-position: center;
       background-size: cover;
-
       max-height: 100%;}
       
     #galery{
@@ -135,7 +134,7 @@
         margin: 16px;
         font-weight: bold;
         font-size: large;
-        background-image: url("רקע של הfooter")}
+        background-image: url("תמונות/רקע\ של\ הfooter")}
 
     .footer-nav{
         display: inline-block;
